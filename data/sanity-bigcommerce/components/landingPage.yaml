@@ -1,0 +1,37 @@
+id: landingPage
+name: Landing Page
+icon: file-document
+parameters:
+  - id: pageTitle
+    name: Page Title
+    type: text
+    typeConfig: null
+slots:
+  - id: header
+    name: Header
+    maxComponents: 1
+    allowedComponents:
+      - header
+    inheritAllowedComponents: false
+  - id: content
+    name: Content
+    allowedComponents:
+      - $test
+      - accordion
+      - featuredProduct
+      - hero
+      - $personalization
+      - productCollectionList
+      - story
+    inheritAllowedComponents: false
+  - id: footer
+    name: Footer
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - footer
+    inheritAllowedComponents: false
+titleParameter: pageTitle
+canBeComposition: true
+created: '2021-09-09T04:36:47.181693+00:00'
+updated: '2021-09-09T04:40:45.738346+00:00'

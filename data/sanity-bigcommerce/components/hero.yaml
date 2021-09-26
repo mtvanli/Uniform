@@ -1,0 +1,19 @@
+id: hero
+name: Hero
+icon: awards
+parameters:
+  - id: entry
+    name: Sanity Entry
+    type: sanityEntrySelector
+    typeConfig:
+      allowedContentTypes:
+        - Hero
+      searchableFieldNames:
+        - name
+        - header
+        - shortCopy
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-09T04:37:22.195149+00:00'
+updated: '2021-09-09T04:40:24.825135+00:00'

@@ -1,0 +1,13 @@
+id: productLandingPage
+name: Product Landing Page
+icon: screen
+parameters:
+  - id: pageTitle
+    name: Page Title
+    type: text
+    typeConfig: null
+slots: []
+titleParameter: pageTitle
+canBeComposition: false
+created: '2021-07-04T03:07:43.951533+00:00'
+updated: '2021-07-22T22:11:10.297342+00:00'

@@ -1,0 +1,18 @@
+id: featuredProduct
+name: Featured Product
+icon: asterisk
+parameters:
+  - id: product
+    name: Product
+    type: commercetoolsProduct
+    typeConfig: null
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-11T21:58:01.514377+00:00'
+updated: '2021-09-11T21:59:53.373618+00:00'
+variants:
+  - id: primary
+    name: Primary
+  - id: secondary
+    name: Secondary

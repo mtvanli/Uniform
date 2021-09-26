@@ -1,0 +1,18 @@
+id: accordion
+name: Accordion
+icon: view-list
+parameters:
+  - id: entry
+    name: Content Entry
+    type: contentfulEntry
+    typeConfig:
+      required: true
+      allowedContentTypes:
+        benefits:
+          id: benefits
+          name: Benefits
+slots: []
+titleParameter: entry
+canBeComposition: false
+created: '2021-09-11T21:57:29.599408+00:00'
+updated: '2021-09-11T21:57:29.599408+00:00'

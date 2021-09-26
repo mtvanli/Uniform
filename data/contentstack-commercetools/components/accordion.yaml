@@ -1,0 +1,137 @@
+id: accordion
+name: Accordion
+icon: view-list
+parameters:
+  - id: entry
+    name: Content Entry
+    type: contentstackEntrySelector
+    typeConfig:
+      allowedContentTypes:
+        benefits:
+          uid: benefits
+          title: Benefits
+          schema:
+            - uid: title
+              unique: true
+              multiple: false
+              data_type: text
+              mandatory: true
+              display_name: Title
+              field_metadata:
+                version: 3
+                _default: true
+              non_localizable: false
+            - uid: small_intro_text
+              format: ''
+              unique: false
+              multiple: false
+              data_type: text
+              mandatory: false
+              display_name: Small Intro Text
+              error_messages:
+                format: ''
+              field_metadata:
+                version: 3
+                description: ''
+                default_value: ''
+              non_localizable: false
+            - uid: header
+              format: ''
+              unique: false
+              multiple: false
+              data_type: text
+              mandatory: false
+              display_name: Header
+              error_messages:
+                format: ''
+              field_metadata:
+                version: 3
+                description: ''
+                default_value: ''
+              non_localizable: false
+            - uid: benefits
+              unique: false
+              multiple: false
+              data_type: reference
+              mandatory: true
+              display_name: Benefits
+              reference_to:
+                - benefit_block
+              field_metadata:
+                ref_multiple: false
+                ref_multiple_content_types: true
+              non_localizable: false
+          SYS_ACL:
+            roles:
+              - uid: blt39c4599504a1c4d6
+                read: true
+                delete: true
+                update: true
+                sub_acl:
+                  read: true
+                  create: true
+                  delete: true
+                  update: true
+                  publish: true
+              - uid: blt4219c2fe2eee1afb
+                read: true
+                sub_acl:
+                  read: true
+                  create: true
+                  delete: true
+                  update: true
+                  publish: true
+              - uid: blte6f27233f46ff6d1
+                read: true
+                delete: true
+                update: true
+                sub_acl:
+                  read: true
+                  create: true
+                  delete: true
+                  update: true
+                  publish: true
+            others:
+              read: false
+              create: false
+              delete: false
+              update: false
+              sub_acl:
+                read: false
+                create: false
+                delete: false
+                update: false
+                publish: false
+          options:
+            title: title
+            is_page: false
+            singleton: true
+            sub_title: []
+          _version: 4
+          abilities:
+            create_object: true
+            delete_object: true
+            update_object: true
+            get_one_object: true
+            get_all_objects: true
+            delete_all_objects: true
+          created_at: '2021-07-05T00:18:18.705Z'
+          updated_at: '2021-07-05T00:19:15.557Z'
+          DEFAULT_ACL:
+            users:
+              - uid: blt703a1b717d06636b
+                read: true
+                sub_acl:
+                  read: true
+            others:
+              read: false
+              create: false
+          description: ''
+          inbuilt_class: false
+          last_activity: {}
+          maintain_revisions: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-11T18:58:47.398557+00:00'
+updated: '2021-09-11T19:00:08.267263+00:00'

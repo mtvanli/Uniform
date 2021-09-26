@@ -1,0 +1,160 @@
+{"level":"info","message":"Migrating languages","timestamp":"2021-09-15T11:55:01.497Z"}
+{"level":"info","message":"Migrating environment","timestamp":"2021-09-15T11:55:01.504Z"}
+{"level":"info","message":"\u001b[32mLanguages have been imported successfully!\u001b[39m","timestamp":"2021-09-15T11:55:01.502Z"}
+{"level":"info","message":"\u001b[32mEnvironments have been imported successfully!\u001b[39m","timestamp":"2021-09-15T11:55:02.265Z"}
+{"level":"info","message":"Migrating assets","timestamp":"2021-09-15T11:55:02.270Z"}
+{"level":"info","message":"No folders were found at: /Users/bennich/Uniform Development/modena/_backup_645/assets/folders.json","timestamp":"2021-09-15T11:55:02.272Z"}
+{"level":"info","message":"Asset bltdfa57c92b4f5cbb7 published successfully","timestamp":"2021-09-15T11:55:04.737Z"}
+{"level":"info","message":"Completed asset import of batch no: 1","timestamp":"2021-09-15T11:55:06.323Z"}
+{"level":"info","message":"Completed asset import of batch no: 5","timestamp":"2021-09-15T11:55:07.961Z"}
+{"level":"info","message":"Asset bltee6adb239f6c180e published successfully","timestamp":"2021-09-15T11:55:10.306Z"}
+{"level":"info","message":"Asset blt8fa5bf9bc7dcaae7 published successfully","timestamp":"2021-09-15T11:55:12.445Z"}
+{"level":"info","message":"Completed asset import of batch no: 4","timestamp":"2021-09-15T11:55:12.447Z"}
+{"level":"info","message":"Asset bltf4ee0088e267fa53 published successfully","timestamp":"2021-09-15T11:55:15.212Z"}
+{"level":"info","message":"Asset blt62916e250d1dcfde published successfully","timestamp":"2021-09-15T11:55:17.353Z"}
+{"level":"info","message":"Completed asset import of batch no: 3","timestamp":"2021-09-15T11:55:17.355Z"}
+{"level":"info","message":"Asset blt8f9feb31e0c846c8 published successfully","timestamp":"2021-09-15T11:55:19.756Z"}
+{"level":"info","message":"Completed asset import of batch no: 2","timestamp":"2021-09-15T11:55:21.361Z"}
+{"level":"info","message":"\u001b[32m9 assets uploaded successfully!\u001b[39m","timestamp":"2021-09-15T11:55:21.362Z"}
+{"level":"info","message":"\u001b[37mMigrating extensions\u001b[39m","timestamp":"2021-09-15T11:55:21.364Z"}
+{"level":"info","message":"\u001b[37mNo Extensions Found\u001b[39m","timestamp":"2021-09-15T11:55:21.365Z"}
+{"level":"info","message":"\u001b[37mMigrating webhooks\u001b[39m","timestamp":"2021-09-15T11:55:21.367Z"}
+{"level":"info","message":"\u001b[37mNo Webhooks Found\u001b[39m","timestamp":"2021-09-15T11:55:21.368Z"}
+{"level":"info","message":"\u001b[37mMigrating global-fields\u001b[39m","timestamp":"2021-09-15T11:55:21.372Z"}
+{"level":"info","message":"\u001b[37mNo globalfields Found\u001b[39m","timestamp":"2021-09-15T11:55:21.373Z"}
+{"level":"info","message":"Migrating contenttypes","timestamp":"2021-09-15T11:55:21.377Z"}
+{"level":"info","message":"benefit_block was updated successfully!","timestamp":"2021-09-15T11:55:27.423Z"}
+{"level":"info","message":"benefits was updated successfully!","timestamp":"2021-09-15T11:55:29.263Z"}
+{"level":"info","message":"story_block was updated successfully!","timestamp":"2021-09-15T11:55:31.049Z"}
+{"level":"info","message":"hero was updated successfully!","timestamp":"2021-09-15T11:55:32.847Z"}
+{"level":"info","message":"story was updated successfully!","timestamp":"2021-09-15T11:55:34.647Z"}
+{"level":"info","message":"\u001b[32mContent types have been imported successfully!\u001b[39m","timestamp":"2021-09-15T11:55:34.648Z"}
+{"level":"info","message":"\u001b[37mMigrating workflows\u001b[39m","timestamp":"2021-09-15T11:55:34.652Z"}
+{"level":"info","message":"\u001b[32mWorkflows have been imported successfully!\u001b[39m","timestamp":"2021-09-15T11:55:34.653Z"}
+{"level":"info","message":"Migrating entries","timestamp":"2021-09-15T11:55:34.666Z"}
+{"level":"info","message":"\u001b[37mSuppressing content type fields...\u001b[39m","timestamp":"2021-09-15T11:55:34.666Z"}
+{"level":"info","message":"Creating entries for content type benefit_block in language en-us ...","timestamp":"2021-09-15T11:55:34.670Z"}
+{"level":"info","message":"4 entries created successfully in benefit_block content type in en-us locale!","timestamp":"2021-09-15T11:55:37.984Z"}
+{"level":"info","message":"Creating entries for content type story_block in language en-us ...","timestamp":"2021-09-15T11:55:37.985Z"}
+{"level":"info","message":"2 entries created successfully in story_block content type in en-us locale!","timestamp":"2021-09-15T11:55:39.539Z"}
+{"level":"info","message":"Creating entries for content type story in language en-us ...","timestamp":"2021-09-15T11:55:39.540Z"}
+{"level":"info","message":"2 entries created successfully in story content type in en-us locale!","timestamp":"2021-09-15T11:55:41.200Z"}
+{"level":"info","message":"Creating entries for content type hero in language en-us ...","timestamp":"2021-09-15T11:55:41.201Z"}
+{"level":"info","message":"5 entries created successfully in hero content type in en-us locale!","timestamp":"2021-09-15T11:55:45.232Z"}
+{"level":"info","message":"Creating entries for content type benefits in language en-us ...","timestamp":"2021-09-15T11:55:45.233Z"}
+{"level":"info","message":"1 entries created successfully in benefits content type in en-us locale!","timestamp":"2021-09-15T11:55:46.114Z"}
+{"level":"info","message":"\u001b[32mEntries created successfully in 'en-us' language\u001b[39m","timestamp":"2021-09-15T11:55:46.115Z"}
+{"level":"info","message":"No entries without mapped uid found!","timestamp":"2021-09-15T11:55:46.115Z"}
+{"level":"info","message":"Completed re-post entries batch no: 1 successfully!","timestamp":"2021-09-15T11:55:46.936Z"}
+{"level":"info","message":"Imported entries of Content Type: 'benefits' in language: 'en-us' successfully!","timestamp":"2021-09-15T11:55:46.937Z"}
+{"level":"info","message":"Completed re-post entries batch no: 1 successfully!","timestamp":"2021-09-15T11:55:48.528Z"}
+{"level":"info","message":"Imported entries of Content Type: 'story' in language: 'en-us' successfully!","timestamp":"2021-09-15T11:55:48.528Z"}
+{"level":"info","message":"\u001b[32mImported entries in 'en-us' language successfully!\u001b[39m","timestamp":"2021-09-15T11:55:48.529Z"}
+{"level":"info","message":"Successfully imported 'en-us' entries!","timestamp":"2021-09-15T11:55:48.529Z"}
+{"level":"info","message":"Re-modified content type schemas to their original form!","timestamp":"2021-09-15T11:55:48.531Z"}
+{"level":"info","message":"\u001b[32mThe stack has been eradicated from bugged entries!\u001b[39m","timestamp":"2021-09-15T11:55:48.532Z"}
+{"level":"info","message":"\u001b[32mEntries have been imported successfully!\u001b[39m","timestamp":"2021-09-15T11:55:48.533Z"}
+{"level":"info","message":"Entry bltcf1031b5f8667bc2 published successfully in benefit_block content type","timestamp":"2021-09-15T11:55:49.393Z"}
+{"level":"info","message":"Entry blt237a4b4ecaf355bd published successfully in benefit_block content type","timestamp":"2021-09-15T11:55:50.148Z"}
+{"level":"info","message":"Entry blt84394f6be6c1c073 published successfully in benefit_block content type","timestamp":"2021-09-15T11:55:50.909Z"}
+{"level":"info","message":"Entry blte7ebe80e3552eb90 published successfully in benefit_block content type","timestamp":"2021-09-15T11:55:51.748Z"}
+{"level":"info","message":"Entries published successfully in benefit_block content type","timestamp":"2021-09-15T11:55:51.749Z"}
+{"level":"info","message":"Entry blt4afc5263d63ede89 published successfully in story_block content type","timestamp":"2021-09-15T11:55:52.510Z"}
+{"level":"info","message":"Entry blt1f4f68db5127538e published successfully in story_block content type","timestamp":"2021-09-15T11:55:53.267Z"}
+{"level":"info","message":"Entries published successfully in story_block content type","timestamp":"2021-09-15T11:55:53.268Z"}
+{"level":"info","message":"Entry blta0f6eda24e5f34aa published successfully in story content type","timestamp":"2021-09-15T11:55:54.105Z"}
+{"level":"info","message":"Entry blt84ff442bc79a6a09 published successfully in story content type","timestamp":"2021-09-15T11:55:54.857Z"}
+{"level":"info","message":"Entries published successfully in story content type","timestamp":"2021-09-15T11:55:54.858Z"}
+{"level":"info","message":"Entry blta6a36e680ad5f0d6 published successfully in hero content type","timestamp":"2021-09-15T11:55:55.741Z"}
+{"level":"info","message":"Entry blt4bcfe20d8914ef6b published successfully in hero content type","timestamp":"2021-09-15T11:55:56.561Z"}
+{"level":"info","message":"Entry blt53eae37e20f51c45 published successfully in hero content type","timestamp":"2021-09-15T11:55:57.379Z"}
+{"level":"info","message":"Entry blt214ba434cdc24674 published successfully in hero content type","timestamp":"2021-09-15T11:55:58.199Z"}
+{"level":"info","message":"Entry bltcbd758570433cc54 published successfully in hero content type","timestamp":"2021-09-15T11:55:58.988Z"}
+{"level":"info","message":"Entries published successfully in hero content type","timestamp":"2021-09-15T11:55:58.989Z"}
+{"level":"info","message":"Entry blt828207cade13bf4f published successfully in benefits content type","timestamp":"2021-09-15T11:55:59.764Z"}
+{"level":"info","message":"Entries published successfully in benefits content type","timestamp":"2021-09-15T11:55:59.765Z"}
+{"level":"info","message":"\u001b[32mAll the entries have been published successfully\u001b[39m","timestamp":"2021-09-15T11:55:59.766Z"}
+{"level":"info","message":"\u001b[37mMigrating labels\u001b[39m","timestamp":"2021-09-15T11:55:59.768Z"}
+{"level":"info","message":"\u001b[32mLabels have been imported successfully!\u001b[39m","timestamp":"2021-09-15T11:55:59.771Z"}
+{"level":"info","message":"\u001b[32mStack: bltf21185c7624a1a42 has been imported succesfully!\u001b[39m","timestamp":"2021-09-15T11:55:59.772Z"}
+{"level":"info","message":"The log for this is stored at content/contentstack-modena-export/logs/import","timestamp":"2021-09-15T11:55:59.772Z"}
+{"level":"info","message":"Migrating languages","timestamp":"2021-09-15T12:12:49.477Z"}
+{"level":"info","message":"\u001b[32mLanguages have been imported successfully!\u001b[39m","timestamp":"2021-09-15T12:12:49.482Z"}
+{"level":"info","message":"Migrating environment","timestamp":"2021-09-15T12:12:49.484Z"}
+{"level":"info","message":"\u001b[32mEnvironments have been imported successfully!\u001b[39m","timestamp":"2021-09-15T12:12:50.541Z"}
+{"level":"info","message":"Migrating assets","timestamp":"2021-09-15T12:12:50.545Z"}
+{"level":"info","message":"No folders were found at: /Users/bennich/Uniform Development/modena/_backup_828/assets/folders.json","timestamp":"2021-09-15T12:12:50.546Z"}
+{"level":"info","message":"Asset blteda612096ea490ce published successfully","timestamp":"2021-09-15T12:12:54.487Z"}
+{"level":"info","message":"Completed asset import of batch no: 1","timestamp":"2021-09-15T12:12:57.078Z"}
+{"level":"info","message":"Completed asset import of batch no: 5","timestamp":"2021-09-15T12:12:58.720Z"}
+{"level":"info","message":"Asset blt9c61cfd8379869fd published successfully","timestamp":"2021-09-15T12:13:01.093Z"}
+{"level":"info","message":"Asset blt1d8affe92868d425 published successfully","timestamp":"2021-09-15T12:13:03.239Z"}
+{"level":"info","message":"Completed asset import of batch no: 4","timestamp":"2021-09-15T12:13:03.241Z"}
+{"level":"info","message":"Asset blt2665104eee7b8eb6 published successfully","timestamp":"2021-09-15T12:13:06.086Z"}
+{"level":"info","message":"Asset bltec28f1cb064b0940 published successfully","timestamp":"2021-09-15T12:13:08.216Z"}
+{"level":"info","message":"Completed asset import of batch no: 3","timestamp":"2021-09-15T12:13:08.218Z"}
+{"level":"info","message":"Asset blt379a4abd85154d79 published successfully","timestamp":"2021-09-15T12:13:10.640Z"}
+{"level":"info","message":"Completed asset import of batch no: 2","timestamp":"2021-09-15T12:13:12.236Z"}
+{"level":"info","message":"\u001b[32m9 assets uploaded successfully!\u001b[39m","timestamp":"2021-09-15T12:13:12.237Z"}
+{"level":"info","message":"\u001b[37mMigrating extensions\u001b[39m","timestamp":"2021-09-15T12:13:12.239Z"}
+{"level":"info","message":"\u001b[37mNo Extensions Found\u001b[39m","timestamp":"2021-09-15T12:13:12.241Z"}
+{"level":"info","message":"\u001b[37mMigrating webhooks\u001b[39m","timestamp":"2021-09-15T12:13:12.243Z"}
+{"level":"info","message":"\u001b[37mNo Webhooks Found\u001b[39m","timestamp":"2021-09-15T12:13:12.244Z"}
+{"level":"info","message":"\u001b[37mMigrating global-fields\u001b[39m","timestamp":"2021-09-15T12:13:12.249Z"}
+{"level":"info","message":"\u001b[37mNo globalfields Found\u001b[39m","timestamp":"2021-09-15T12:13:12.250Z"}
+{"level":"info","message":"Migrating contenttypes","timestamp":"2021-09-15T12:13:12.254Z"}
+{"level":"info","message":"benefit_block was updated successfully!","timestamp":"2021-09-15T12:13:18.112Z"}
+{"level":"info","message":"benefits was updated successfully!","timestamp":"2021-09-15T12:13:19.919Z"}
+{"level":"info","message":"story_block was updated successfully!","timestamp":"2021-09-15T12:13:21.725Z"}
+{"level":"info","message":"hero was updated successfully!","timestamp":"2021-09-15T12:13:23.517Z"}
+{"level":"info","message":"story was updated successfully!","timestamp":"2021-09-15T12:13:25.355Z"}
+{"level":"info","message":"\u001b[32mContent types have been imported successfully!\u001b[39m","timestamp":"2021-09-15T12:13:25.356Z"}
+{"level":"info","message":"\u001b[37mMigrating workflows\u001b[39m","timestamp":"2021-09-15T12:13:25.360Z"}
+{"level":"info","message":"\u001b[32mWorkflows have been imported successfully!\u001b[39m","timestamp":"2021-09-15T12:13:25.362Z"}
+{"level":"info","message":"Migrating entries","timestamp":"2021-09-15T12:13:25.373Z"}
+{"level":"info","message":"\u001b[37mSuppressing content type fields...\u001b[39m","timestamp":"2021-09-15T12:13:25.374Z"}
+{"level":"info","message":"Creating entries for content type benefit_block in language en-us ...","timestamp":"2021-09-15T12:13:25.377Z"}
+{"level":"info","message":"4 entries created successfully in benefit_block content type in en-us locale!","timestamp":"2021-09-15T12:13:28.623Z"}
+{"level":"info","message":"Creating entries for content type story_block in language en-us ...","timestamp":"2021-09-15T12:13:28.624Z"}
+{"level":"info","message":"2 entries created successfully in story_block content type in en-us locale!","timestamp":"2021-09-15T12:13:30.173Z"}
+{"level":"info","message":"Creating entries for content type story in language en-us ...","timestamp":"2021-09-15T12:13:30.175Z"}
+{"level":"info","message":"2 entries created successfully in story content type in en-us locale!","timestamp":"2021-09-15T12:13:31.757Z"}
+{"level":"info","message":"Creating entries for content type hero in language en-us ...","timestamp":"2021-09-15T12:13:31.758Z"}
+{"level":"info","message":"5 entries created successfully in hero content type in en-us locale!","timestamp":"2021-09-15T12:13:35.832Z"}
+{"level":"info","message":"Creating entries for content type benefits in language en-us ...","timestamp":"2021-09-15T12:13:35.833Z"}
+{"level":"info","message":"1 entries created successfully in benefits content type in en-us locale!","timestamp":"2021-09-15T12:13:36.672Z"}
+{"level":"info","message":"\u001b[32mEntries created successfully in 'en-us' language\u001b[39m","timestamp":"2021-09-15T12:13:36.673Z"}
+{"level":"info","message":"No entries without mapped uid found!","timestamp":"2021-09-15T12:13:36.673Z"}
+{"level":"info","message":"Completed re-post entries batch no: 1 successfully!","timestamp":"2021-09-15T12:13:37.494Z"}
+{"level":"info","message":"Imported entries of Content Type: 'benefits' in language: 'en-us' successfully!","timestamp":"2021-09-15T12:13:37.495Z"}
+{"level":"info","message":"Completed re-post entries batch no: 1 successfully!","timestamp":"2021-09-15T12:13:39.139Z"}
+{"level":"info","message":"Imported entries of Content Type: 'story' in language: 'en-us' successfully!","timestamp":"2021-09-15T12:13:39.140Z"}
+{"level":"info","message":"\u001b[32mImported entries in 'en-us' language successfully!\u001b[39m","timestamp":"2021-09-15T12:13:39.140Z"}
+{"level":"info","message":"Successfully imported 'en-us' entries!","timestamp":"2021-09-15T12:13:39.140Z"}
+{"level":"info","message":"Re-modified content type schemas to their original form!","timestamp":"2021-09-15T12:13:39.142Z"}
+{"level":"info","message":"\u001b[32mThe stack has been eradicated from bugged entries!\u001b[39m","timestamp":"2021-09-15T12:13:39.143Z"}
+{"level":"info","message":"\u001b[32mEntries have been imported successfully!\u001b[39m","timestamp":"2021-09-15T12:13:39.144Z"}
+{"level":"info","message":"Entry bltcf1031b5f8667bc2 published successfully in benefit_block content type","timestamp":"2021-09-15T12:13:40.160Z"}
+{"level":"info","message":"Entry blt237a4b4ecaf355bd published successfully in benefit_block content type","timestamp":"2021-09-15T12:13:41.188Z"}
+{"level":"info","message":"Entry blt84394f6be6c1c073 published successfully in benefit_block content type","timestamp":"2021-09-15T12:13:42.050Z"}
+{"level":"info","message":"Entry blte7ebe80e3552eb90 published successfully in benefit_block content type","timestamp":"2021-09-15T12:13:42.912Z"}
+{"level":"info","message":"Entries published successfully in benefit_block content type","timestamp":"2021-09-15T12:13:42.914Z"}
+{"level":"info","message":"Entry blt4afc5263d63ede89 published successfully in story_block content type","timestamp":"2021-09-15T12:13:43.713Z"}
+{"level":"info","message":"Entry blt1f4f68db5127538e published successfully in story_block content type","timestamp":"2021-09-15T12:13:44.483Z"}
+{"level":"info","message":"Entries published successfully in story_block content type","timestamp":"2021-09-15T12:13:44.484Z"}
+{"level":"info","message":"Entry blta0f6eda24e5f34aa published successfully in story content type","timestamp":"2021-09-15T12:13:45.299Z"}
+{"level":"info","message":"Entry blt84ff442bc79a6a09 published successfully in story content type","timestamp":"2021-09-15T12:13:46.065Z"}
+{"level":"info","message":"Entries published successfully in story content type","timestamp":"2021-09-15T12:13:46.066Z"}
+{"level":"info","message":"Entry blta6a36e680ad5f0d6 published successfully in hero content type","timestamp":"2021-09-15T12:13:46.912Z"}
+{"level":"info","message":"Entry blt4bcfe20d8914ef6b published successfully in hero content type","timestamp":"2021-09-15T12:13:47.728Z"}
+{"level":"info","message":"Entry blt53eae37e20f51c45 published successfully in hero content type","timestamp":"2021-09-15T12:13:48.526Z"}
+{"level":"info","message":"Entry blt214ba434cdc24674 published successfully in hero content type","timestamp":"2021-09-15T12:13:49.301Z"}
+{"level":"info","message":"Entry bltcbd758570433cc54 published successfully in hero content type","timestamp":"2021-09-15T12:13:50.188Z"}
+{"level":"info","message":"Entries published successfully in hero content type","timestamp":"2021-09-15T12:13:50.189Z"}
+{"level":"info","message":"Entry blt828207cade13bf4f published successfully in benefits content type","timestamp":"2021-09-15T12:13:51.007Z"}
+{"level":"info","message":"Entries published successfully in benefits content type","timestamp":"2021-09-15T12:13:51.008Z"}
+{"level":"info","message":"\u001b[32mAll the entries have been published successfully\u001b[39m","timestamp":"2021-09-15T12:13:51.008Z"}
+{"level":"info","message":"\u001b[37mMigrating labels\u001b[39m","timestamp":"2021-09-15T12:13:51.011Z"}
+{"level":"info","message":"\u001b[32mLabels have been imported successfully!\u001b[39m","timestamp":"2021-09-15T12:13:51.012Z"}
+{"level":"info","message":"\u001b[32mStack: bltf21185c7624a1a42 has been imported succesfully!\u001b[39m","timestamp":"2021-09-15T12:13:51.012Z"}
+{"level":"info","message":"The log for this is stored at content/contentstack-modena-export/logs/import","timestamp":"2021-09-15T12:13:51.013Z"}

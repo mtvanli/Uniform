@@ -1,0 +1,23 @@
+id: productCollectionContainer
+name: Product Collection Container
+icon: screen
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    typeConfig: null
+  - id: tag
+    name: Tag
+    type: text
+    typeConfig: null
+slots:
+  - id: products
+    name: Products
+    maxComponents: 1
+    allowedComponents:
+      - productCollectionItem
+    inheritAllowedComponents: false
+titleParameter: ''
+canBeComposition: false
+created: '2021-07-04T03:02:03.371698+00:00'
+updated: '2021-07-22T22:11:10.322627+00:00'

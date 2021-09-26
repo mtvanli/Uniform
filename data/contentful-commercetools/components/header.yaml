@@ -1,0 +1,9 @@
+id: header
+name: Header
+icon: border-top
+parameters: []
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-11T21:58:01.616867+00:00'
+updated: '2021-09-11T21:58:01.616867+00:00'

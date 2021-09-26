@@ -1,0 +1,23 @@
+id: productCollectionList
+name: Product Collection List
+icon: list
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    typeConfig:
+      required: true
+  - id: tag
+    name: Tag
+    type: text
+    typeConfig:
+      required: true
+  - id: products
+    name: Products
+    type: commercetoolsProductList
+    typeConfig: null
+slots: []
+titleParameter: heading
+canBeComposition: false
+created: '2021-09-11T21:57:30.355619+00:00'
+updated: '2021-09-11T22:01:30.294721+00:00'

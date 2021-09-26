@@ -1,0 +1,24 @@
+id: productCollectionList
+name: Product Collection List
+icon: list
+parameters:
+  - id: heading
+    name: Heading
+    type: text
+    typeConfig:
+      required: true
+  - id: tag
+    name: Tag
+    type: text
+    typeConfig:
+      required: true
+  - id: products
+    name: Products
+    type: bigcommerceProductList
+    typeConfig:
+      required: true
+slots: []
+titleParameter: heading
+canBeComposition: false
+created: '2021-06-30T21:36:20.598113+00:00'
+updated: '2021-08-11T16:01:30.800329+00:00'

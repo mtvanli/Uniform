@@ -1,0 +1,36 @@
+[build]
+  command = 'npm run ci:build'
+  publish = 'out'
+
+[template]
+  incoming-hooks = ["Uniform"]
+
+[template.environment]
+  UNIFORM_PROJECT_ID='Uniform project Id'
+  UNIFORM_API_KEY='Uniform API Key'
+
+  CONTENTFUL_SPACE_ID = 'Contentful Space ID'
+  CONTENTFUL_ENVIRONMENT = 'Contentful Environment'
+  CONTENTFUL_CDA_ACCESS_TOKEN = 'Contentful Delivery API Key'
+  CONTENTFUL_CPA_ACCESS_TOKEN = 'Contentful Preview API Key'
+  GA_UA_ID='Google Analytics ID (optional)'
+
+  BIGCOMMERCE_STORE_HASH='Store hash from BigCommerce'
+  BIGCOMMERCE_TOKEN='API token from BigCommerce'
+
+  CONTENTSTACK_API_KEY='Contentstack API Key'
+  CONTENTSTACK_DELIVERY_TOKEN='Contentstack Delivery Token'
+  CONTENTSTACK_ENVIRONMENT='Contentstack environment name (prod)'
+
+  SANITY_PROJECT_ID='Sanity Project Id'
+  SANITY_TOKEN='Sanity API Token'
+
+  CTP_API_URL='Commercetools API Url'
+  CTP_AUTH_URL='Commercetools Auth Url'
+  CTP_CLIENT_ID='Commercetools Client Id'
+  CTP_CLIENT_SECRET='Commercetools Client Secret'
+  CTP_PROJECT_KEY='Commercetools Project Key'
+
+# Stores the next cache between builds for faster build time
+[[plugins]]
+  package = "netlify-plugin-cache-nextjs"

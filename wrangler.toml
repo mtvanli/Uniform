@@ -1,0 +1,12 @@
+name = "modena"
+#account_id = "f39f700e75c45960a1b4e1ad200acd82"
+account_id = "8bbd342126819f37b3a0c95ac0fda776"
+type = "webpack"
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "cloudflare.webpack.config.js"
+
+[site]
+bucket = "./out"
+entry-point = "./"

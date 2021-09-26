@@ -1,0 +1,154 @@
+id: hero
+name: Hero
+icon: awards
+parameters:
+  - id: entry
+    name: Entry
+    type: contentstackEntrySelector
+    typeConfig:
+      allowedContentTypes:
+        hero:
+          uid: hero
+          title: Hero
+          schema:
+            - uid: title
+              unique: true
+              multiple: false
+              data_type: text
+              mandatory: true
+              display_name: Title
+              field_metadata:
+                version: 3
+                _default: true
+              non_localizable: false
+            - uid: url
+              unique: false
+              multiple: false
+              data_type: text
+              mandatory: false
+              display_name: URL
+              field_metadata:
+                version: 3
+                _default: true
+              non_localizable: false
+            - uid: verticaltitle
+              format: ''
+              unique: false
+              multiple: false
+              data_type: text
+              mandatory: false
+              display_name: verticalTitle
+              reference_to: []
+              error_messages:
+                format: ''
+              field_metadata:
+                version: 3
+                description: ''
+                default_value: ''
+              non_localizable: false
+            - uid: header
+              format: ''
+              unique: false
+              multiple: false
+              data_type: text
+              mandatory: false
+              display_name: header
+              error_messages:
+                format: ''
+              field_metadata:
+                version: 3
+                multiline: true
+                description: ''
+                default_value: ''
+              non_localizable: false
+            - uid: shortcopy
+              format: ''
+              unique: false
+              multiple: false
+              data_type: text
+              mandatory: false
+              display_name: shortCopy
+              error_messages:
+                format: ''
+              field_metadata:
+                version: 3
+                multiline: true
+                description: ''
+                default_value: ''
+              non_localizable: false
+          SYS_ACL:
+            roles:
+              - uid: blt39c4599504a1c4d6
+                read: true
+                delete: true
+                update: true
+                sub_acl:
+                  read: true
+                  create: true
+                  delete: true
+                  update: true
+                  publish: true
+              - uid: blt4219c2fe2eee1afb
+                read: true
+                sub_acl:
+                  read: true
+                  create: true
+                  delete: true
+                  update: true
+                  publish: true
+              - uid: blte6f27233f46ff6d1
+                read: true
+                delete: true
+                update: true
+                sub_acl:
+                  read: true
+                  create: true
+                  delete: true
+                  update: true
+                  publish: true
+            others:
+              read: false
+              create: false
+              delete: false
+              update: false
+              sub_acl:
+                read: false
+                create: false
+                delete: false
+                update: false
+                publish: false
+          options:
+            title: title
+            is_page: true
+            singleton: false
+            sub_title: []
+            url_prefix: /
+            url_pattern: /:title
+          _version: 6
+          abilities:
+            create_object: true
+            delete_object: true
+            update_object: true
+            get_one_object: true
+            get_all_objects: true
+            delete_all_objects: true
+          created_at: '2021-06-25T01:32:37.948Z'
+          updated_at: '2021-06-25T01:34:51.389Z'
+          DEFAULT_ACL:
+            users:
+              - uid: blt703a1b717d06636b
+                read: true
+                sub_acl:
+                  read: true
+            others:
+              read: false
+              create: false
+          description: ''
+          inbuilt_class: false
+          last_activity: {}
+          maintain_revisions: true
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-11T18:58:47.340095+00:00'
+updated: '2021-09-11T19:00:35.638538+00:00'

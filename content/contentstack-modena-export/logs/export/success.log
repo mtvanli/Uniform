@@ -1,0 +1,38 @@
+{"level":"info","message":"Starting assets export","timestamp":"2021-09-15T10:59:48.467Z"}
+{"level":"info","message":"Downloaded Male_hero.png: blt86d1d9ce4fa82624 successfully!","timestamp":"2021-09-15T10:59:51.038Z"}
+{"level":"info","message":"Downloaded Default_Hero.png: bltea37bb2877c1a86a successfully!","timestamp":"2021-09-15T10:59:51.043Z"}
+{"level":"info","message":"Downloaded Hipster_hero.png: blt3b7e676fd9be7067 successfully!","timestamp":"2021-09-15T10:59:51.084Z"}
+{"level":"info","message":"Downloaded woman-wearing-hat.jpg: blt9708424288ecf7e3 successfully!","timestamp":"2021-09-15T10:59:51.097Z"}
+{"level":"info","message":"Downloaded Upscale_hero.png: blt67f48f519d30adba successfully!","timestamp":"2021-09-15T10:59:51.150Z"}
+{"level":"info","message":"Downloaded yellow_woman.jpg: blt133f7835617388a5 successfully!","timestamp":"2021-09-15T10:59:51.911Z"}
+{"level":"info","message":"Downloaded couple_hero.png: blteb9d96797c844585 successfully!","timestamp":"2021-09-15T10:59:52.019Z"}
+{"level":"info","message":"Downloaded Purple_Woman.png: blt25312af243711cfc successfully!","timestamp":"2021-09-15T10:59:52.020Z"}
+{"level":"info","message":"Downloaded hipster_secondary.jpg: blt23ad2b0e39614371 successfully!","timestamp":"2021-09-15T10:59:52.091Z"}
+{"level":"info","message":"Batch no 1 of assets is complete","timestamp":"2021-09-15T10:59:52.092Z"}
+{"level":"info","message":"No folders were found in the stack!","timestamp":"2021-09-15T10:59:52.856Z"}
+{"level":"info","message":"\u001b[32mAsset export completed successfully\u001b[39m","timestamp":"2021-09-15T10:59:52.856Z"}
+{"level":"info","message":"Starting locale export","timestamp":"2021-09-15T10:59:52.857Z"}
+{"level":"info","message":"No languages found except the master language","timestamp":"2021-09-15T10:59:53.596Z"}
+{"level":"info","message":"Starting environment export","timestamp":"2021-09-15T10:59:53.598Z"}
+{"level":"info","message":"\u001b[32mAll the environments have been exported successfully\u001b[39m","timestamp":"2021-09-15T10:59:54.346Z"}
+{"level":"info","message":"Starting extension export","timestamp":"2021-09-15T10:59:54.347Z"}
+{"level":"info","message":"No extensions found","timestamp":"2021-09-15T10:59:55.114Z"}
+{"level":"info","message":"Starting webhooks export","timestamp":"2021-09-15T10:59:55.116Z"}
+{"level":"info","message":"No webhooks found","timestamp":"2021-09-15T10:59:55.873Z"}
+{"level":"info","message":"Starting Global Fields export","timestamp":"2021-09-15T10:59:55.874Z"}
+{"level":"info","message":"No global fields found","timestamp":"2021-09-15T10:59:56.635Z"}
+{"level":"info","message":"Starting content type export","timestamp":"2021-09-15T10:59:56.637Z"}
+{"level":"info","message":"\u001b[32mContent type(s) exported successfully\u001b[39m","timestamp":"2021-09-15T10:59:57.399Z"}
+{"level":"info","message":"Starting workflow export","timestamp":"2021-09-15T10:59:57.400Z"}
+{"level":"info","message":"No workflow were found in the Stack","timestamp":"2021-09-15T10:59:58.170Z"}
+{"level":"info","message":"Starting entry migration","timestamp":"2021-09-15T10:59:58.172Z"}
+{"level":"info","message":"Exported entries of hero to the en-us language successfully","timestamp":"2021-09-15T10:59:59.808Z"}
+{"level":"info","message":"Exported entries of story to the en-us language successfully","timestamp":"2021-09-15T11:00:01.443Z"}
+{"level":"info","message":"Exported entries of benefits to the en-us language successfully","timestamp":"2021-09-15T11:00:02.953Z"}
+{"level":"info","message":"Exported entries of benefit_block to the en-us language successfully","timestamp":"2021-09-15T11:00:04.508Z"}
+{"level":"info","message":"Exported entries of story_block to the en-us language successfully","timestamp":"2021-09-15T11:00:06.023Z"}
+{"level":"info","message":"Entry migration completed successfully","timestamp":"2021-09-15T11:00:06.023Z"}
+{"level":"info","message":"Starting labels export","timestamp":"2021-09-15T11:00:06.024Z"}
+{"level":"info","message":"No labels found","timestamp":"2021-09-15T11:00:06.769Z"}
+{"level":"info","message":"The log for this is stored at content/contentstack-modena-export/logs/export","timestamp":"2021-09-15T11:00:06.771Z"}
+{"level":"info","message":"\u001b[32mThe content of the blt182c95103e657386 has been exported succesfully!\u001b[39m","timestamp":"2021-09-15T11:00:06.771Z"}

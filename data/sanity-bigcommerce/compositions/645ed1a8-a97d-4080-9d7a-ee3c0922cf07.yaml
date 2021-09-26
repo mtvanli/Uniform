@@ -1,0 +1,106 @@
+composition:
+  _id: 645ed1a8-a97d-4080-9d7a-ee3c0922cf07
+  type: landingPage
+  _name: Landing
+  _slug: /landing
+  slots:
+    footer:
+      - type: footer
+        parameters: {}
+    header:
+      - type: header
+        parameters: {}
+    content:
+      - type: $personalization
+        slots:
+          pz:
+            - type: hero
+              parameters:
+                entry:
+                  type: sanityEntrySelector
+                  value: 1f5bdeea-0b03-4326-86c2-b4cc9ac93ace
+                intentTag:
+                  type: intentTag
+                  value:
+                    intents:
+                      women:
+                        str: 50
+            - type: hero
+              parameters:
+                entry:
+                  type: sanityEntrySelector
+                  value: c7e8f195-6946-4cd5-87ca-c2b137c1548b
+                intentTag:
+                  type: intentTag
+                  value:
+                    intents:
+                      menHipster:
+                        str: 50
+            - type: hero
+              parameters:
+                entry:
+                  type: sanityEntrySelector
+                  value: 629d66f3-10b1-4455-98be-18722ab5898b
+                intentTag:
+                  type: intentTag
+                  value:
+                    intents:
+                      womenLuxury:
+                        str: 50
+            - type: hero
+              parameters:
+                entry:
+                  type: sanityEntrySelector
+                  value: a1ec9d8b-a643-4892-9ee7-ac1431940e8c
+        parameters:
+          trackingEventName:
+            type: text
+            value: Home page personalization
+      - type: story
+        parameters:
+          entry:
+            type: sanityEntrySelector
+            value: 8387d591-a1c5-4385-9cf0-d10f188fb5fb
+      - type: $test
+        slots:
+          test:
+            - type: featuredProduct
+              variant: primary
+              parameters:
+                product:
+                  type: bigcommerceProduct
+                  value: '154'
+            - type: featuredProduct
+              variant: secondary
+              parameters:
+                product:
+                  type: bigcommerceProduct
+                  value: '154'
+        parameters:
+          test:
+            type: testSelect
+            value: Featured Product Test
+      - type: productCollectionList
+        parameters:
+          tag:
+            type: text
+            value: check it out
+          heading:
+            type: text
+            value: Awesome Collection
+          products:
+            type: bigcommerceProductList
+            value:
+              - '154'
+              - '155'
+              - '156'
+              - '156'
+      - type: accordion
+        parameters:
+          entry:
+            type: sanityEntrySelector
+            value: 1287acfa-a050-4257-9180-0a79febf620c
+  parameters:
+    pageTitle:
+      type: text
+      value: Summer 2021

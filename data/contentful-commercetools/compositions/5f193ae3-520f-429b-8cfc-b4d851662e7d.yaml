@@ -1,0 +1,70 @@
+composition:
+  _id: 5f193ae3-520f-429b-8cfc-b4d851662e7d
+  type: productLandingPage
+  _name: Landing
+  _slug: /landing
+  slots:
+    footer:
+      - type: footer
+        parameters: {}
+    header:
+      - type: header
+        parameters: {}
+    content:
+      - type: $personalization
+        slots:
+          pz:
+            - type: hero
+              parameters:
+                entry:
+                  type: contentfulEntry
+                  value: 2UzV4wTVJJIku1WTpV3jYV
+                intentTag:
+                  type: intentTag
+                  value:
+                    intents:
+                      menHipster:
+                        str: 50
+            - type: hero
+              parameters:
+                entry:
+                  type: contentfulEntry
+                  value: 7lHSjrW2vOIhVmDXS3knNi
+        parameters:
+          trackingEventName:
+            type: text
+            value: Home Hero
+      - type: story
+        parameters:
+          entry:
+            type: contentfulEntry
+            value: 6jOqXJxoBdVr1aBqMjBbP1
+      - type: featuredProduct
+        variant: primary
+        parameters:
+          product:
+            type: commercetoolsProduct
+            value: ea7b5320-de01-454e-b255-ff18ef52d6b6
+      - type: productCollectionList
+        parameters:
+          tag:
+            type: text
+            value: look cool in cool weather
+          heading:
+            type: text
+            value: Fall 2021
+          products:
+            type: commercetoolsProductList
+            value:
+              - a011d3e9-11aa-4749-bbfe-74877c275cfa
+              - ee5eb707-86a2-4e69-8b25-961a438addb4
+              - d5e76d24-ac71-4e17-8211-80de31017ba2
+      - type: accordion
+        parameters:
+          entry:
+            type: contentfulEntry
+            value: 2BM6q63DOIdZAFgkFHXCHV
+  parameters:
+    pageTitle:
+      type: text
+      value: Demo product landing page

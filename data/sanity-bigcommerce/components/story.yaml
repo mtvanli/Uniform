@@ -1,0 +1,19 @@
+id: story
+name: Story
+icon: volume
+parameters:
+  - id: entry
+    name: Sanity Entry
+    type: sanityEntrySelector
+    typeConfig:
+      allowedContentTypes:
+        - Story
+      searchableFieldNames:
+        - title
+        - tagLine
+        - intro
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-09T04:37:22.224106+00:00'
+updated: '2021-09-09T04:40:58.196893+00:00'

@@ -1,0 +1,17 @@
+id: productCollectionItem
+name: Product Collection Item
+icon: shopping-bag
+parameters:
+  - id: displayname
+    name: DisplayName
+    type: text
+    typeConfig: null
+  - id: product
+    name: Product
+    type: commercetoolsProduct
+    typeConfig: null
+slots: []
+titleParameter: displayname
+canBeComposition: false
+created: '2021-09-11T21:57:29.688514+00:00'
+updated: '2021-09-11T22:01:04.612544+00:00'

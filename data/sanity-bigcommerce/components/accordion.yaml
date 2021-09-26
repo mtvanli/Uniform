@@ -1,0 +1,19 @@
+id: accordion
+name: Accordion
+icon: view-list
+parameters:
+  - id: entry
+    name: Sanity Entry
+    type: sanityEntrySelector
+    typeConfig:
+      allowedContentTypes:
+        - Benefits
+      searchableFieldNames:
+        - name
+        - smallIntroHeader
+        - header
+slots: []
+titleParameter: ''
+canBeComposition: false
+created: '2021-09-09T04:37:22.204077+00:00'
+updated: '2021-09-09T04:39:58.58705+00:00'

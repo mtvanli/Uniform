@@ -1,0 +1,91 @@
+composition:
+  _id: 7fb47c56-7d28-4ab6-b361-bc381f3d0fb4
+  type: landingPage
+  _name: Landing Page
+  _slug: /landing
+  slots:
+    footer:
+      - type: footer
+        parameters: {}
+    header:
+      - type: header
+        parameters: {}
+    content:
+      - type: $personalization
+        slots:
+          pz:
+            - type: hero
+              parameters:
+                entry:
+                  type: contentstackEntrySelector
+                  value:
+                    entryUid: blt214ba434cdc24674
+                    contentTypeUid: hero
+                intentTag:
+                  type: intentTag
+                  value:
+                    intents:
+                      women:
+                        str: 50
+            - type: hero
+              parameters:
+                entry:
+                  type: contentstackEntrySelector
+                  value:
+                    entryUid: blt4bcfe20d8914ef6b
+                    contentTypeUid: hero
+        parameters:
+          matchFilter:
+            type: select
+            value: personalizedOrDefault
+          trackingEventName:
+            type: text
+            value: Hero Personalization
+      - type: story
+        parameters:
+          entry:
+            type: contentstackEntrySelector
+            value:
+              entryUid: blt84ff442bc79a6a09
+              contentTypeUid: story
+      - type: productCollectionList
+        parameters:
+          tag:
+            type: text
+            value: Fall Collection 2021
+          heading:
+            type: text
+            value: Also for you
+          products:
+            type: bigcommerceProductList
+            value:
+              - '155'
+              - '156'
+              - '157'
+      - type: $test
+        slots:
+          test:
+            - type: featuredProduct
+              variant: primary
+              parameters:
+                product:
+                  type: bigcommerceProduct
+                  value: '154'
+            - type: featuredProduct
+              variant: secondary
+              parameters:
+                product:
+                  type: bigcommerceProduct
+                  value: '154'
+        parameters:
+          test:
+            type: testSelect
+            value: Featured Product Test
+      - type: accordion
+        parameters:
+          entry:
+            type: contentstackEntrySelector
+            value:
+              entryUid: blt828207cade13bf4f
+              contentTypeUid: benefits
+  parameters: {}
